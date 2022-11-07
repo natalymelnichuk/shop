@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    background-color: #ccc;
+    width: 100%;
+    padding: 0px 40px;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.fa-mobile {
+    font-size: 2em;
+    color: #305875;
+    margin-right: 16px;
+}
+
+header a {
+    text-decoration: none;
+    color: #305875;
+    font-family: Inter;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+}
+
+.products {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product {
+    background-color: white;
+    border-radius: 15px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px #305875;
+    margin-top: 16px;
+}
+
+.cart {
+    width: 20%;
+}
+
+img {
+    margin: 8px 0px;
+    height: 95px;
+}
+
+img:nth-child(-n+3) {
+    margin-bottom: 8px;
+}
+
+.product h1 {
+    font-family: Inter;    
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #305875;
+}
+
+.product h3 {    
+    font-family: Inter;    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+}
+
+.product p {   
+    height: 100px; 
+    width: 80%; 
+    font-family: Inter;    
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+}
