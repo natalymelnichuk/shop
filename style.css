@@ -126,13 +126,17 @@ img:nth-child(-n+3) {
     border: solid 2px #305875;
 }
 
+.product button:hover {
+    background-color: #ccc;
+}
+
 .cart_product {
     width: 90%;
 }
 
 .cart .list_product {
     border: solid 1px #305875;
-    display: flex;
+    display: none;
     flex-direction: row; 
     justify-content: space-between;
     width: 100%;  
