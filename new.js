@@ -1,11 +1,13 @@
-const buyButton = document.getElementById ('buy');
-const cart = document.getElementById ('cart-product');
-const crossButton = document.getElementById ('cross');
+const buyButton = document.getElementById('buy');
+const listProduct = document.getElementById('list-product');
+const crossButton = document.getElementById('cross');
 
 buyButton.addEventListener('click', () => {
-    cart.classList.add ('cart-product')
+    listProduct.classList.add('list-product-active');
 });
 
-crossButton.addEventListener ('click', () => {
-    cart.classList.remove ('cart-product')
+crossButton.addEventListener('click', () => {
+    listProduct.classList.remove('list-product-active');
 });
+
+//const checkout = document.getElementById 

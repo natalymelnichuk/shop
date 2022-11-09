@@ -71,6 +71,7 @@ header a {
     align-items: center;
     justify-content: space-between;
     border: solid 2px #305875;
+    border-radius: 15px;
 }
 
 img {
@@ -134,13 +135,17 @@ img:nth-child(-n+3) {
     width: 90%;
 }
 
-.cart .list_product {
+.cart .list-product {
     border: solid 1px #305875;
     display: none;
     flex-direction: row; 
     justify-content: space-between;
     width: 100%;  
     margin-bottom: 4px; 
+}
+
+.list-product-active {
+    display: flex;
 }
 
 .list section button {
@@ -163,7 +168,12 @@ img:nth-child(-n+3) {
     color: black;
     border-radius: 8px;
     margin: 4px 0px;
-    border: solid 2px #305875;       
+    border: solid 2px #305875;    
+    
+}
+
+.cart button:hover {
+    background-color: #ccc;
 }
 
 footer {
