@@ -39,7 +39,8 @@ header a {
 .main {
     width: 100%;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row; 
+    justify-content: space-around;   
 }
 
 .products {
@@ -47,7 +48,7 @@ header a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -64,6 +65,12 @@ header a {
 
 .cart {
     width: 20%;
+    margin-top: 16px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 2px #305875;
 }
 
 img {
@@ -117,4 +124,61 @@ img:nth-child(-n+3) {
     border-radius: 8px;
     margin: 4px 0px;
     border: solid 2px #305875;
+}
+
+.cart_product {
+    width: 90%;
+}
+
+.cart .list_product {
+    border: solid 1px #305875;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    width: 100%;  
+    margin-bottom: 4px; 
+}
+
+.list section button {
+    width: 30px;
+    border: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+.cart button {
+    width: 150px;
+    font-family: Inter;    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    margin: 4px 0px;
+    border: solid 2px #305875;       
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a {
+    font-family: Inter;    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #305875;
+    text-decoration: none;
+}
+
+footer a:first-child {
+    margin-top: 10px;
 }
